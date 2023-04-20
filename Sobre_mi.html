@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title> La Casa De Papel </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(226, 211, 211, 0.842);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+.Intro{
+  font-size: 22px;
+  text-align: justify;
+}
+  .carousel-inner .carousel-item img {
+  height: 450px !important;
+  width: 100%;
+  object-fit: fill;
+  object-position: center;
+}
+
+
+  img {
+  height: 200px;
+  object-fit: cover;
+
+
+}
+  iframe {
+  width: 100%;
+  height: 30vh;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+.social {
+  color: #fff; /* Color del texto */
+}
+
+.social i {
+  color: #ff0000; /* Color de fondo de los iconos */
+}
+
+ .foto {
+  width: 200px;
+  height: 30%;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  animation: heartbeat 1s infinite;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ background-color: #eef7ec;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.foto::before,
+.foto::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  animation: circle 2s infinite;
+}
+
+.foto::before {
+  width: 270px;
+  height: 270px;
+  margin: 15px;
+}
+
+.foto::after {
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+  .sklill {
+    padding-top: 1px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(22, 2, 2);
+    background-color: rgb(162, 88, 247);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  #footer a{
+    color:white;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+  height: 200px !important;
+  width: 100%;
+  object-fit: fill;
+  object-position: center;
+}
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+    iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 15px;
+  }
+  img {
+  height: 200px;
+  object-fit: cover;
+}
+#footer a{
+    color:white;
+  }
+
+  .foto {
+  width: 150px;
+  height: 50%;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  animation: heartbeat 1s infinite;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ background-color: #eef7ec;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.foto::before,
+.foto::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  animation: circle 2s infinite;
+}
+
+.foto::before {
+  width: 270px;
+  height: 270px;
+  margin: 15px;
+}
+
+.foto::after {
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo_ad{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-personajes_titulo{
+  font-size: 18px;
+}
+  }
+
+</style>
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">La Casa De Papel</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="principal.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Sobre_mi.html">Sobre Mi</a>
+                  </li>
+                 
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+<main id="main">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="imagen 01.png" alt="1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagen05.webp" alt=" 5">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagen03.jpeg" alt=" 3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagen04.png" alt="4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagen02.jpeg" alt="2">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagen 06.jpeg" alt="6">
+          </div>
+
+
+        </div>
+      </div>
+</main>
+<br>
+ <!--Fin Main-->
+ <h3 class="top-personajes_titulo text-center">¿ Quien Soy?</h3>
+
+ <div class="mt-4 text-white rounded pt-5 bg-danger">
+  <img class="foto" src="https://avatars.githubusercontent.com/u/128622065?s=400&u=2149c8eea91e6f66cd550f083286016d8e8a10c8&v=4" alt="Foto">
+
+  <!--  <img class="foto" src="https://avatars.githubusercontent.com/u/128622065?s=400&u=2149c8eea91e6f66cd550f083286016d8e8a10c8&v=4" alt="Foto"><br> -->
+   <p class="Intro text-justify m-3 p-1 ">  Mi Nombre es <strong>Yanelis Lopez Apolinar</strong>, soy Estudiante de la Universidad Dominicana O&M, como Ingeniero en Sistemas y
+     Computación, tengo 22 años Tengo experiencia en el diseño de páginas web, gracias a varios cursos que eh realizado . Tengo una condición llamada miopatía miofribilar tipo 6, Gracias a Dios que me a yudado a no rendirme y demostrar mi fuerza y determinación para superar cualquier obstáculo en el camino.
+     Tengo conocimientos en manejador de paquete de oficina , diceño de paginas wed , HTML y javascript.
+   </p>
+   <br>
+</div>
+<br>
+<div class="descripcion">
+  
+ 
+</div>
+ <br>
+ <h3 class=" text-center"> Frases inspiradoras</h3>
+<p class="Intro text-justify">
+
+
+  "Estudia como si pudieras cambiar el mundo, porque quizás algún día lo harás".
+   <br> <br>
+   "El aprendizaje nunca termina. Siempre hay algo nuevo que descubrir, algo nuevo que entender." 
+   <br> <br>
+   Tienes la capacidad de lograr todo lo que te propongas, solo tienes que ponerle ganas y esfuerzo.
+   <br> <br>
+   "La educación es el pasaporte hacia el futuro, ya que el mañana pertenece a aquellos que se preparan hoy."
+   <br> <br>
+   No dejes nunca de soñar, tus sueños son la motivación que necesitas para alcanzar tus metas.
+   <br> <br>
+   "El estudio es el alimento de la juventud, el placer de la edad adulta y el refugio de la vejez."
+   <br> <br>
+   Sigue tus sueños, ellos son la clave para lograr tus objetivos y alcanzar la felicidad.
+   <br> <br>
+   "La educación es el camino hacia el éxito en el mundo moderno, y la clave para desbloquear el potencial humano." 
+ </p> 
+
+<br>
+<hr>
+<br>
+
+<!--Galeria de Videos-->
+<br>
+<h3 class="top-personajes_titulo text-center">🎬 Estos son alguna videos de mis afisciones</h3>
+<br>
+<div class="card-group">
+  <div class="card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/L6haaewiYec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><div class="card-body">
+      <h5 class="card-title">LEER</h5>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8QMJ4fzcu60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="card-body">
+      <h5 class="card-title">TOCAR PIANO</h5>
+       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IWWUsb85nyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <div class="card-body">
+      <h5 class="card-title">COCINAR</h5>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+</div>
+
+   <div class="card-group">
+  <div class="card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7s4pK3s8-lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="card-body">
+      <h5 class="card-title">MUSICA</h5>
+       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <iframe width="560" height="315"src="https://www.youtube.com/embed/jV8X6Cf_3L8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="card-body">
+    <h5 class="card-title">HACER DIFERENTES COSAS CON TRAPILLO, HILO DE LANA ECT</h5>
+       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-871h3ZwGEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="card-body">
+      <h5 class="card-title">INVENTAR EN LA COCINA</h5>
+       <p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!--Fin Galeria de Videos-->
+  
+  <!-- Boton Ver Serie-->
+
+    <div class="text-center center-block">
+
+        <a href="https://www.instagram.com/yanelis.lop/" 
+        target="_blank" class="btn btn-primary btn-lg btn-block" 
+        tabindex="-1" role="button" aria-disabled="true">😁Ver Mi Perfil en instagran</a>
+
+  </div>
+
+    <!--Fin Boton Ver Serie-->
+    <hr/>
+
+<!--Redes Sociales-->
+
+<h3 class="text-center">Mis Redes Sociales</h3>
+<hr />
+<div class="text-center center-block">
+<div class="social">
+  <a href="https://web.facebook.com/nayelis.lopez" target="_blank"><i
+    class="fa fa-facebook-square fa-3x social"></i></a>
+<a href="https://github.com/yanelis19" target="_blank"><i
+    class="fa fa-github-square fa-3x social"></i></a>
+</div>
+
+</div>
+<hr />
+         
+<!--Fin Redes Sociales-->
+<h4 class="text-center">Yanelis Lopez Apolinar <small>&copy; 2023. Todos los derechos reservados.</small></h4>
+    <!--Footer-->
+    <footer id="footer" class="pb-4 pt-4 bg-danger ">
+        <div class="container">
+            <div class="row text-center">
+                <div class=" col-12 col-lg ">
+                    <a class="text-white" href="index.html">Home</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="sobremi.html">Sobre Mi</a>
+                </div>
+               
+                <div class="col-12 col-lg">
+                    <a href="#">Contactos</a>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+    <!--Fin footer-->
+
+  </div>
+    <!--Main Container-->
+
+
+    <!-- Optional JavaScript -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js " integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc " crossorigin="anonymous "></script>
+  
+
+</body>
+
+</html>

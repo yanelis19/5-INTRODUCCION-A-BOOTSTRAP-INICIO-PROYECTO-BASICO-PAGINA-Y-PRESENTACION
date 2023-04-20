@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title> La Casa De Papel </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(226, 211, 211, 0.842);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: #ff2020;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">La Casa De Papel</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre_mi.html">Sobre Mi</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="imagen 01.png" alt="1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagen02.jpeg" alt="2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagen03.jpeg" alt="3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagen04.png" alt="4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagen05.webp" alt="5">
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>La Casa De Papel:</h1>
+      <p class="Intro">La casa de papel es una serie de televisión española creada por Álex Pina, producida por Atresmedia en sus inicios, aunque posteriormente por Netflix y con el periodista y guionista Javier Gómez Santander como coproductor ejecutivo. Protagonizada por Úrsula Corberó, Itziar Ituño y Álvaro Morte,
+         se presentó en el III Festival de Televisión de Primavera en Burgos en marzo de 2017 y el 2 de mayo de ese mismo año se estrenó en la cadena española Antena 
+      </p>
+
+      <p class="Intro">
+        Esta cadena distribuyó las dos primeras partes de la serie en España antes de que Netflix la adquiriera a finales de 2017 y la editase, reeditase y distribuyese las dos partes por todo el mundo. La serie 
+        está inspirada en el protocolo del atracador de bancos Willie Sutton, que concibió más de 100 golpes mediante disfraces y engaños y sin necesidad de disparar a nadie. Eso le reportó dos millones de dólares en las décadas de 1920-1950. </p>
+      <p>
+        La serie cuenta con 41 episodios repartidos en 5 temporadas; las dos primeras partes tratan sobre
+       el atraco de la banda a la Fábrica Nacional de Moneda y Timbre, mientras que la tercera, cuarta y quinta parte es al Banco de España.
+      </p>
+    
+      <p class="Intro"> Los creadores consiguen combinar acción, intriga, suspenso, e incluso romanticismo y, en la
+         última temporada, un carácter bélico, con una gran caracterización de los personajes y un atrapante argumento. 
+         Todas estas cualidades la convierten en la serie española más exitosa de todos los tiempos. <br>
+      </p>
+      
+      <p class="Intro"> 
+        <strong>
+          La casa de papel finalizó el 3 de diciembre de 2021, tras 3 temporadas y 5 partes emitidas.
+        </strong>
+      </p>
+    
+      <p class="Intro"> 
+        Tras su final, Netflix anunció que ya trabaja en un spin-off sobre la vida de “Berlín”, 
+        interpretado por Pedro Alonso, para 2023 y en una nueva precuela llamada “El Golpe Del Siglo” para 2024</p>
+    </div>
+
+ 
+    <h3 class="mb-3 pb-3 text-center">La Casa De Papel: Top personajes Favoritos </h3>
+    <div class="card-group">
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://www.gifcen.com/wp-content/uploads/2021/09/la-casa-de-papel-gif.gif"
+alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Tokio</h5>
+          <p class="card-text">Silene Oliveira, conocida bajo el apodo de Tokio, es un personaje de La casa de papel. Es un miembro de la banda atracadora a la Fábrica Nacional de Moneda y Timbre. Está en búsqueda policial por diferentes asaltos.
+  </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://media.tenor.com/uIeetz3DLRMAAAAC/nairobi-casa-de-papel.gif" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Nairobi</h5>
+          <p class="card-text">Ágata Jiménez, conocida bajo el apodo de Nairobi, es un personaje de La casa de papel. Es una de las atracadoras de la Fábrica Nacional de Moneda y Timbre. Es la experta falsificadora del grupo. 
+ </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://media.tenor.com/A123nu_gHG8AAAAC/denver-laugh.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Denver</h5>
+          <p class="card-text">Daniel Ramos, conocido bajo el apodo de Denver, es un personaje de La casa de papel. Es un miembro de la banda atracadora de la Fábrica Nacional de Moneda y Timbre. Es el hijo de Moscú..</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+  
+      <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://media.tenor.com/6YFo-BmEENcAAAAC/esta-bien-moscu.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Moscu</h5>
+            <p class="card-text">Agustín Ramos, conocido bajo el apodo de Moscú, es un personaje de La casa de papel. Es uno de los miembros atracadores a la Fábrica Nacional de Moneda y Timbre. Es el encargado de realizar el túnel que los sacará de allí con el dinero. Es el padre de Denver.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="https://media.tenor.com/7MvbBCmei6QAAAAC/el-profesor-la-casa-de-papel.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Profesor</h5>
+            <p class="card-text">Sergio Marquina, alias El Profesor, es un personaje de La casa de papel. Es el líder de la banda de atracadores a la Fábrica Nacional de Moneda y Timbre. Es un hombre del que poco se sabe y al que le gusta tener calculado hasta el más mínimo detalle.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://www.serieously.com/app/uploads/2020/01/la-casa-de-papel-miguel-herran-rio.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Rio</h5>
+            <p class="card-text">Aníbal Cortés, conocido bajo el apodo de Río, es un personaje de La casa de papel.
+              Una infancia programando y hackeando. Una adolescencia con la mirada en la Red. Esa capacidad y esos conocimientos le hicieron jefe técnico de una empresa de seguridad siendo aún muy joven. En lo personal, todo ese saber no vino acompañado de un grado de madurez equiparable. Así, pronto se vio metido en hackeos y roturas de sistemas de seguridad que poco tenían de juego. Terminó en búsqueda y captura por la Interpol, situación de la que le rescató El Profesor. Es el maestro
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card-group">
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://media.tenor.com/Cm5_u4YifH4AAAAC/por-favor-berlin.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Berlin</h5>
+              <p class="card-text">Andrés de Fonollosa, conocido bajo el alias de Berlín, es un personaje de La casa de papel. Es el líder de la banda que planea atracar la Fábrica Nacional de Moneda y Timbre</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://media.tenor.com/CJN1WgYTx1kAAAAC/feliz-helsinki.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Helsinki</h5>
+              <p class="card-text">Mirko Dragic, conocido bajo el apodo de Helsinki, es un personaje de La casa de papel. Es un miembro de la banda atracadora de la Fábrica Nacional de Moneda y Timbre.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://media1.giphy.com/media/b95VFTJfrdx7ZzFtEs/giphy.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Estocolmo</h5>
+              <p class="card-text">Mónica Gaztambide, posteriormente bautizada como Estocolmo, es un personaje de La casa de papel. Fue la secretaria del director de la Fábrica Nacional de Moneda y Timbre.
+                Mónica Gaztambide es de esas mujeres que se fija siempre en el hombre equivocado en el peor momento posible. Tras varios fracasos en la oposiciones a funcionario de alto rango, Mónica logró aprobar el examen que le permitía ejercer como secretaria del Director de la Fábrica Nacional de Moneda y Timbre, a la sazón, Arturo, el hombre que
+le trae por la calle de la amargura.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+  
+            <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://img.wattpad.com/773793185911c9cdd79cdf1fdff6d158c0b0a6cf/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f442d65515a4f31595f6b315463413d3d2d3838323830313136362e3136306463306631613231326166396632363334383436393934372e676966"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Oslo</h5>
+            <p class="card-text">Radko Dragic, conocido bajo el apodo de Oslo, es un personaje de La casa de papel. Es un miembro de la banda atracadora de la Fábrica Nacional de Moneda y Timbre.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="https://media.tenor.com/D4A4dhq6tYIAAAAd/confundida-raquel-murillo.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">La inspectora Lisboa:</h5>
+            <p class="card-text">Raquel Murillo es un personaje de La casa de papel, posteriormente bautizada como Lisboa. Fue la inspectora al cargo de resolver el atraco a la Fábrica Nacional de Moneda y Timbre.</p>
+            <pclass="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://i.pinimg.com/originals/8c/01/91/8c0191d47db1023f405228115741e2dd.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Alicia Sierra</h5>
+            <p class="card-text"> Alicia Sierra Montes, una inspectora embarazada que pone en aprietos a la banda del profesor, que también lidera Rodrigo de la Serna.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://media.tenor.com/wvghYJ4fZggAAAAd/arturo-la-casa-de-papel.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Arturito </h5>
+                <p class="card-text">Arturo Román es un personaje de La casa de papel. Es el director de la Fábrica Nacional de Moneda y Timbre.
+                  Se considera un buen jefe, un buen esposo, un buen padre y, sobre todo, un excelente amante. Dirige la fábrica con solvencia y siempre se muestra atento con todos sus empleados. Pero cuando el atraco comienza, el jefe no tarda en revelar su verdadera cara, la de un hombrecillo asustado y egoísta dispuesto a hacer lo que sea por sobrevivir. Muchas veces su comportamiento recuerda al de una rata intentando abandonar un barco que naufraga; otras sólo se trata de un hombre herido, hundido por la pena que siente el infiel, lleno de amor e incapaz de dejar a ninguna de sus mujeres..</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://vader.news/__export/1610077803515/sites/gadgets/img/2021/01/08/angel_-_la_casa_de_papel.jpg_186469708.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Angel subinspector</h5>
+                <p class="card-text">Ángel Rubio es un personaje de La casa de papel. Es el subinspector durante el atraco y compañero de Raquel Murillo.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          
+       
+              
+  
+              <!--Galeria de Videos-->
+
+
+              <h3 id="titulo" class="text-center">Resumen de las Temporadas </h3>
+              <hr>
+
+              <div class="card-group">
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/0SvzIGzg66I" title="YouTube video player" frameborder="0"
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                   allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Temporada 1
+                       </h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/G7w7aN4_vG0" title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen></iframe>
+
+                  <div class="card-body">
+                    <h5 class="card-title">Temporada 2
+                    </h5>
+                 
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/QENiz4dBxoc" title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title"> Temporada 3
+                    </h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+
+                <div class="card-group">
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/0LaNatiQwJ0" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Temporada 4
+                      </h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/V0xZcOYuzNo" title="YouTube video player" frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Temporada 5 final
+                      </h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+          
+
+                </div>
+              </div>
+            </div>
+
+            <hr />
+          </div>
+
+
+
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center">Mis Redes Sociales</h3>
+            <hr />
+            <div class="text-center center-block">
+              <div class="social">
+                <a href="https://web.facebook.com/nayelis.lopez" target="_blank"><i
+                    class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://github.com/yanelis19" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+
+            </div>
+            <hr />
+            <h4 class="text-center">Yanelis Lopez Apolinar  20-EISM-1-042 <small>&copy; 2023. Todos los derechos reservados.</small></h4>
+            <!--Fin Redes Sociales-->
+
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-danger">
+              <div class="container">
+                <div class="row text-center">
+                  <div class=" col-12 col-lg">
+                    <a href="index.html">Home</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="sobremi.html">Sobre Mi</a>
+                  </div>
+
+                  <div class="col-12 col-lg">
+                    <a href="#">Contactos</a>
+                  </div>
+
+                </div>
+              </div>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
