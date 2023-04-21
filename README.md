@@ -18,11 +18,13 @@ Cinco meses de reclusión memorizando cada paso, cada detalle, cada probabilidad
 
 # FOTOS:
 ![LOGIN](https://user-images.githubusercontent.com/128622065/233514833-d69d710f-ad80-4e64-b3cc-2d049dbda916.PNG)
+# FOTOS:
 ![PRINCIPAL 1](https://user-images.githubusercontent.com/128622065/233514863-6e31c741-0ab1-4700-b320-e6953e1746aa.PNG)
 ![PERSONAJES FAVORITOS](https://user-images.githubusercontent.com/128622065/233515181-2f1a34b2-5383-4ed4-b7e4-46e1fd792798.PNG)
 ![PERSONAJES FAVORITOS 1](https://user-images.githubusercontent.com/128622065/233514915-fd5c5bc4-5b74-4402-9b07-dc75ac400920.PNG)
 ![VIDEOS RESUMENES](https://user-images.githubusercontent.com/128622065/233515217-384aa4e0-b216-4fcc-814c-25663689f00d.PNG)
 ![VIDEOS RESUMENES 1](https://user-images.githubusercontent.com/128622065/233515241-966646da-8f71-494c-b2d8-0abcb4c19f25.PNG)
+# FOTOS:
 ![SOBRE MI](https://user-images.githubusercontent.com/128622065/233515264-ef6e76b8-e8c3-465b-98cb-730cfab0ef53.PNG)
 ![SOBRE MI FRASES](https://user-images.githubusercontent.com/128622065/233515277-f0279253-5817-4f4f-87c2-7d9a91aa60a3.PNG)
 ![SOBRE MI 1](https://user-images.githubusercontent.com/128622065/233515301-f4cb0b95-c843-4ebe-94b5-f863be8f0f04.PNG)
