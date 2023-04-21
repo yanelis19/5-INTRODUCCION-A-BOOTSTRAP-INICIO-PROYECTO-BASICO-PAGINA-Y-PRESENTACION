@@ -13,3 +13,5 @@ Un enigmático personaje llamado El Profesor planea algo grande, único: llevar 
 Ella se unirá al grupo reclutado por El Profesor y conformado por: Berlín, el cabecilla; Moscú, el experto en perforaciones; Río, el informático; Nairobi, la falsificadora; Denver, hijo de Moscú; Helsinki y Oslo, la fuerza bruta.
 
 Cinco meses de reclusión memorizando cada paso, cada detalle, cada probabilidad... y por fin, once días de encierro en la Fábrica Nacional de Moneda y Timbre, rodeados de los cuerpos de élite de la policía y con 67 rehenes en su poder para saber si saldrán vencedores de su apuesta suicida. Será todo o nada.
+
+![Algunas De Mis Aficiones](https://user-images.githubusercontent.com/128622065/233513165-5847ce26-ad68-4162-9d72-ff56effdf91e.jpeg)
